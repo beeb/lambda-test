@@ -8,3 +8,8 @@ To serve the lambda on port 9000 with auto-reloading for development, run:
 cargo lambda watch
 ```
 
+## Nix
+
+If using nix, you can enter a dev shell with all required dependencies by doing `nix develop`.
+
+If using `direnv`, simply run `direnv allow` to automatically enable the dev shell when entering this folder.
