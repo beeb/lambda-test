@@ -26,6 +26,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.rust-analyzer-unwrapped
+            pkgs.cargo-lambda
             toolchain
           ];
 
